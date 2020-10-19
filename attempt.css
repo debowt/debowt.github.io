@@ -1,5 +1,10 @@
 <style>
 body {background-color: black;}
-h1   {color: white;}
-p    {color: red;}
+h1 {color: white;}
+p {color: red;}
+p {
+border:2px solid white;
+margin: 20px;
+padding: 10px;
+}
 </style>
