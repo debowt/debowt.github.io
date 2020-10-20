@@ -5,20 +5,75 @@
     body {background-color: black;}
       h1 {color: white;}
       p {color: white;}
+    div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
   </style>
 </head> 
 <body> 
   <h1> Art Gallery </h1>
      <hr/>
     <p> A selection of personal works and illustrations</p> 
-  <p>
-  <img src="art1.png"alt="art piece 1"/>
-  <img src="art2.png"alt="art piece 2"/>
-  <img src="art3.png"alt="art piece 3"/>
-  <img src="art4.png"alt="art piece 4"/>
-  <img src="art5.png"alt="art piece 5"/>
-  <img src="art6.png"alt="art piece 6"/>
-  </p>
+
+<div class="gallery">
+  <a target="_blank" href="art1.png">
+    <img src="art1.png" alt="Retro Portrait" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="art2.png">
+    <img src="art2.png" alt="Security Cam" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="art3.png">
+    <img src="art3.png" alt="Tower" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="art4.png">
+    <img src="art4.png" alt="Eclipse" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+  </div>
+  
+  <div class="gallery">
+     <a target="_blank" href="art5.png">
+       <img src="art5.png" alt="Ash Williams" width="600" height="400">
+    </a>
+    <div class="desc"> blah blah </div>
+  </div>
+  
+  <div class="gallery">
+    <a target="_blank" href="art6.png">
+      <img src="art6.png" alt="comic clipping" width="600" height="400">
+    </a>
+    <div class="desc"> u know </div>
+  </div>
+</div>
    <p> For more, feel free to check out <a href="https://scottdebow.pb.gallery/">my portfolio</a>
    <hr/>
      <a href="index.html"> Back to Menu</a>
