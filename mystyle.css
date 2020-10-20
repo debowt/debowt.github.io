@@ -7,3 +7,7 @@ p.fancy{
   color:#666;    
   font-style: oblique;
 }
+  a:link {color: red;}
+        a:visited {color:blue;}
+        a:hover {color:white;}
+        a:active {color:blue;}
